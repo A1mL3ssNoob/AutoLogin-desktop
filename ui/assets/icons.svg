@@ -1,0 +1,53 @@
+<!-- Campus Link: hand-drawn on a 24px grid, 1.75px round strokes via .icon. -->
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="home" viewBox="0 0 24 24">
+      <path d="m3.5 10.6 8.5-7 8.5 7"/><path d="M5.5 9.5v10h13v-10M9.5 19.5v-5h5v5"/>
+    </symbol>
+    <symbol id="user" viewBox="0 0 24 24">
+      <circle cx="12" cy="8" r="3.2"/><path d="M5.5 19.5c.7-3.1 3-4.8 6.5-4.8s5.8 1.7 6.5 4.8"/>
+    </symbol>
+    <symbol id="activity" viewBox="0 0 24 24">
+      <path d="M4 12h3l2.5-6 5 12 2.5-6h3"/><path d="M5 4.5h3M16 19.5h3" opacity=".4"/>
+    </symbol>
+    <symbol id="logs" viewBox="0 0 24 24">
+      <rect x="5" y="3.5" width="14" height="17" rx="3"/>
+      <path d="M9 8h6M9 12h6M9 16h3"/>
+    </symbol>
+    <symbol id="refresh" viewBox="0 0 24 24">
+      <path d="M19 8.5A7.5 7.5 0 0 0 5.7 6.2L4 8"/><path d="M4 4.5V8h3.5M5 15.5a7.5 7.5 0 0 0 13.3 2.3L20 16"/><path d="M20 19.5V16h-3.5"/>
+    </symbol>
+    <symbol id="chevron-down" viewBox="0 0 24 24"><path d="m7 9.5 5 5 5-5"/></symbol>
+    <symbol id="chevron-right" viewBox="0 0 24 24"><path d="m9.5 7 5 5-5 5"/></symbol>
+    <symbol id="arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></symbol>
+    <symbol id="arrow-right" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6"/></symbol>
+    <symbol id="network" viewBox="0 0 24 24">
+      <path d="M4 12h3.2M16.8 12H20M12 4v3.2M12 16.8V20"/><circle cx="12" cy="12" r="4.3"/><circle cx="4" cy="12" r="1.5"/><circle cx="20" cy="12" r="1.5"/><circle cx="12" cy="4" r="1.5"/><circle cx="12" cy="20" r="1.5"/>
+    </symbol>
+    <symbol id="wifi" viewBox="0 0 24 24">
+      <path d="M3.5 8a13 13 0 0 1 17 0M6.8 11.5a8 8 0 0 1 10.4 0M10 15a3 3 0 0 1 4 0"/>
+      <circle cx="12" cy="18.5" r="1.15" fill="currentColor" stroke="none"/>
+    </symbol>
+    <symbol id="wifi-off" viewBox="0 0 24 24">
+      <path d="m4 4 16 16M8.8 5.4A13 13 0 0 1 20.5 8M3.5 8l1.1-.8M12.6 9.6a8 8 0 0 1 4.6 1.9M6.8 11.5l1.1-.7M10 15a3 3 0 0 1 4 0"/>
+      <circle cx="12" cy="18.5" r="1.15" fill="currentColor" stroke="none"/>
+    </symbol>
+    <symbol id="check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="m8 12 2.7 2.7L16.5 9"/></symbol>
+    <symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+    <symbol id="capture" viewBox="0 0 24 24">
+      <path d="M7.5 3.5h-2a2 2 0 0 0-2 2v2M16.5 3.5h2a2 2 0 0 1 2 2v2M20.5 16.5v2a2 2 0 0 1-2 2h-2M7.5 20.5h-2a2 2 0 0 1-2-2v-2"/>
+      <rect x="7.5" y="7.5" width="9" height="9" rx="2"/><path d="M7.5 10.5h9M10.5 13.5h3"/>
+    </symbol>
+    <symbol id="shield" viewBox="0 0 24 24"><path d="M12 3.5 19 6v5.2c0 4.1-2.5 7.5-7 9.3-4.5-1.8-7-5.2-7-9.3V6l7-2.5Z"/><path d="m8.8 12 2.1 2.1 4.4-4.5"/></symbol>
+    <symbol id="spark" viewBox="0 0 24 24"><path d="M12 3.5 13.5 10l6.5 2-6.5 2L12 20.5 10.5 14 4 12l6.5-2L12 3.5Z"/></symbol>
+    <symbol id="download" viewBox="0 0 24 24"><path d="M12 4v11M7.5 11.5 12 16l4.5-4.5M5 19.5h14"/></symbol>
+    <symbol id="power" viewBox="0 0 24 24"><path d="M12 3.5v8M7 6.5a8 8 0 1 0 10 0"/></symbol>
+    <symbol id="pause" viewBox="0 0 24 24"><rect x="6.5" y="5" width="3.5" height="14" rx="1"/><rect x="14" y="5" width="3.5" height="14" rx="1"/></symbol>
+    <symbol id="play" viewBox="0 0 24 24"><path d="M8 5.5 18 12 8 18.5Z"/></symbol>
+    <symbol id="eye" viewBox="0 0 24 24"><path d="M2.8 12S6 6.5 12 6.5 21.2 12 21.2 12 18 17.5 12 17.5 2.8 12 2.8 12Z"/><circle cx="12" cy="12" r="2.5"/></symbol>
+    <symbol id="eye-off" viewBox="0 0 24 24"><path d="m4 4 16 16M9.5 6.8a10 10 0 0 1 2.5-.3c6 0 9.2 5.5 9.2 5.5a17 17 0 0 1-2.4 3M6 8.4A18 18 0 0 0 2.8 12s3.2 5.5 9.2 5.5c1.3 0 2.4-.2 3.5-.7"/></symbol>
+    <symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4.5 4.5L19 7"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6.5 6.5 11 11M17.5 6.5l-11 11"/></symbol>
+    <symbol id="dots" viewBox="0 0 24 24"><circle cx="6" cy="12" r="1.3"/><circle cx="12" cy="12" r="1.3"/><circle cx="18" cy="12" r="1.3"/></symbol>
+  </defs>
+</svg>
